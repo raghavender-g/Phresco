@@ -10,6 +10,12 @@
     </scm>
   <name>WidgetGIT</name>
   <packaging>phresco</packaging>
+  	 <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://172.16.17.226:8080/repository/content/repositories/phrescorelease/</url>
+        </repository>
+    </distributionManagement>
   <build>
 		<sourceDirectory>${phresco.source.directory}</sourceDirectory>
         <testSourceDirectory>${testSourceDirectory}</testSourceDirectory>
